@@ -12,3 +12,5 @@ Repository: https://github.com/saucymj/Work-Day-Scheduler
 
 ## Screenshot
 
+![30D48D26-4082-4AB6-B254-C140174121DC](https://user-images.githubusercontent.com/106449899/185487656-ee6f1686-323d-4183-8461-ce0b18b2c8f1.jpeg)
+
