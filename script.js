@@ -31,13 +31,21 @@ function colorCode() {
 
 $(".saveBtn").on('click', function(){
 
-    time = $(this).siblings(".hour").text();
+    time = $(this).siblings(".hour").text().trim();
     plans = $(this).siblings(".description").val();
     
     localStorage.setItem(time, plans);
 });
 
-$("#hour9 .description").val(localStorage.getItem("hour9"));
+$("#hour9 .description").val(localStorage.getItem("9AM"));
+$("#hour10 .description").val(localStorage.getItem("10AM"));
+$("#hour11 .description").val(localStorage.getItem("11AM"));
+$("#hour12 .description").val(localStorage.getItem("12AM"));
+$("#hour13 .description").val(localStorage.getItem("1PM"));
+$("#hour14 .description").val(localStorage.getItem("2PM"));
+$("#hour15 .description").val(localStorage.getItem("3PM"));
+$("#hour16 .description").val(localStorage.getItem("4PM"));
+$("#hour17 .description").val(localStorage.getItem("5PM"));
 
 
 
